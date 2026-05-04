@@ -32,13 +32,12 @@ function runTimer() {
 // Match the text entered with the provided text on the page:
 function spellCheck() {
     var input = testArea.value;
-    var origin = originText.innerHTML;
-    if(input === origin) {
+    if(input === originText) {
         clearInterval(timerInterval);
         timerRunning = false;
         testWrapper.style.borderColor = "green";
     }
-    else if(input === origin.substring(0, input.length)) {
+    else if(input === originText.substring(0, input.length)) {
         testWrapper.style.borderColor = "blue";
     }
     else {
@@ -56,7 +55,17 @@ function startTimer() {
 }
 
 // Reset everything:
-
+function reset() {
+    clearInterval(timerInterval);
+    timerRunning = false;
+    timer = [0, 0, 0, 0];
+    theTimer.innerHTML = "00:00:00";
+    testArea.value = "";
+    testWrapper.style.borderColor = "grey";
+}
 
 // Event listeners for keyboard input and the reset button:
+testArea.addEventListener("keyup", startTimer);
+testArea.addEventListener("keyup", spellCheck);
+resetButton.addEventListener("click", reset);
 

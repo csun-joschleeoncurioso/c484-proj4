@@ -10,7 +10,7 @@ You are provided with a basic HTML structure, a CSS stylesheet, and a skeleton J
 
 ### 1. Core Functionality
 
-- **Standard Timer:** Implement a minute/second/hundredths timer (00:00:00).
+- **Standard Timer:** Implement a minute/second/hundredths timer (00:00:00). **done**
 - **Input Validation:** Compare the user's input in the textarea with the provided origin text.
 - **Event Handling:** Use appropriate event listeners for keyboard input (to start/check the test) and button clicks (to reset).
 - **Reset Logic:** The "Start Over" button must clear the text area, reset the timer to zero, and revert any visual state changes.
