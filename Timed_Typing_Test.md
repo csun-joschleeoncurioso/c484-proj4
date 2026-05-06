@@ -24,16 +24,18 @@ To receive full credit and satisfy the "Creativity" component of the rubric, you
   - **Blue:** While typing and matching the text correctly. **done**
   - **Orange/Red:** If a typo is detected (input doesn't match the substring of the origin). **done**
   - **Green:** When the test is successfully completed. **done**
+
 - **Data Persistence (Local Storage):**
-  - Display the **Top Three Fastest Scores** on the page.
+  - Display the **Top Three Fastest Scores** on the page. **done**
   - These scores must persist across browser refreshes using the `localStorage` API.
 
 - **Content Randomization:**
-  - Create an array of at least 5 different text paragraphs in your JavaScript file.
-  - Each time the "Start Over" button is clicked, a random paragraph from the array should be injected into the `#origin-text p` element.
+  - Create an array of at least 5 different text paragraphs in your JavaScript file. **done**
+  - Each time the "Start Over" button is clicked, a random paragraph from the array should be injected into the `#origin-text p` element. **done**
+  
 - **Live Performance Metrics:**
-  - **WPM (Words Per Minute):** Calculate and display the WPM using the standard formula: `(Total Characters / 5) / (Total Seconds / 60)`.
-  - **Error Counter:** Keep track of how many times the user makes a mistake (mismatching characters) during a single session.
+  - **WPM (Words Per Minute):** Calculate and display the WPM using the standard formula: `(Total Characters / 5) / (Total Seconds / 60)`. **done**
+  - **Error Counter:** Keep track of how many times the user makes a mistake (mismatching characters) during a single session. **done**
 
 ## Grading Rubric
 

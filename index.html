@@ -20,7 +20,7 @@
         </article><!-- .intro -->
         <section class="test-area">
             <div id="origin-text">
-                <p>The text to test.</p>
+                <p>The quick brown fox jumps over the lazy dog.</p>
             </div><!-- #origin-text -->
 
             <div class="test-wrapper">
@@ -32,8 +32,19 @@
                     <div class="timer">00:00:00</div>
                 </section>
 
+                <section id="metrics">
+                    <h3>WPM: <span id="wpm">0</span></h3>
+                    <h3>Errors: <span id="error-counter">0</span></h3>
+                </section>
+
                 <button id="reset">Start over</button>
             </div><!-- .meta -->
+
+            <div class="results">
+                <h2>Top Scores:</h2>
+                <ol id="top-scores"></ol>
+            </div><!-- .results -->
+
         </section><!-- .test-area -->
     </main>
 
