@@ -11,9 +11,9 @@ You are provided with a basic HTML structure, a CSS stylesheet, and a skeleton J
 ### 1. Core Functionality
 
 - **Standard Timer:** Implement a minute/second/hundredths timer (00:00:00). **done**
-- **Input Validation:** Compare the user's input in the textarea with the provided origin text.
-- **Event Handling:** Use appropriate event listeners for keyboard input (to start/check the test) and button clicks (to reset).
-- **Reset Logic:** The "Start Over" button must clear the text area, reset the timer to zero, and revert any visual state changes.
+- **Input Validation:** Compare the user's input in the textarea with the provided origin text. **done**
+- **Event Handling:** Use appropriate event listeners for keyboard input (to start/check the test) and button clicks (to reset). **done**
+- **Reset Logic:** The "Start Over" button must clear the text area, reset the timer to zero, and revert any visual state changes. **done**
 
 ### 2. Advanced Requirements
 
@@ -21,9 +21,9 @@ To receive full credit and satisfy the "Creativity" component of the rubric, you
 
 - **Dynamic Visual Feedback:**
   - The border color of the `.test-wrapper` must change in real-time.
-  - **Blue:** While typing and matching the text correctly.
-  - **Orange/Red:** If a typo is detected (input doesn't match the substring of the origin).
-  - **Green:** When the test is successfully completed.
+  - **Blue:** While typing and matching the text correctly. **done**
+  - **Orange/Red:** If a typo is detected (input doesn't match the substring of the origin). **done**
+  - **Green:** When the test is successfully completed. **done**
 - **Data Persistence (Local Storage):**
   - Display the **Top Three Fastest Scores** on the page.
   - These scores must persist across browser refreshes using the `localStorage` API.
